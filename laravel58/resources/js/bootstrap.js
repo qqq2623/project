@@ -55,6 +55,6 @@ window.Echo = new Echo({
 	host:window.location.hostname + ":6001"
  });
 //
-//window.Echo.channel('news').listen('News' , (e) => {
-//	alert(e.message)
-//});
+window.Echo.channel('news').listen('News' , (e) => {
+	alert(e.message)
+});
