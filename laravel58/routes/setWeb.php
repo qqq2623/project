@@ -12,7 +12,6 @@
 */
 
 use App\Model\AdminUser;
-use Redis;
 Route::any("admin" , "SingleShow");
 
 Route::resource("resource" , "ResourceController");
