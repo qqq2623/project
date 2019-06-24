@@ -41,5 +41,6 @@ Route::any("queue" , function(){
 
 
 Route::any("redis" , function(){
-	Redis::set("zhangyu" ,  "111111");
+	$a = Redis::set("zhangyu" ,  "111111");
+	var_dump($a);die;
 });
