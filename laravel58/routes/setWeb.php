@@ -12,6 +12,7 @@
 */
 
 use App\Model\AdminUser;
+use Redis;
 Route::any("admin" , "SingleShow");
 
 Route::resource("resource" , "ResourceController");
@@ -37,4 +38,9 @@ Route::any("queue" , function(){
 	$userInfo  =  "消息队列";
 	\App\Jobs\QueueJob::dispatch($userInfo)->onQueue("{zhangyu}");
 	echo "我完成了";
+});
+
+
+Route::any("redis" , function(){
+	Redis::set("zhangyu" ,  "111111");
 });
