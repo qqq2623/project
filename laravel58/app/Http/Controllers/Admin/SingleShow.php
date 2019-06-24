@@ -50,7 +50,7 @@ class SingleShow extends Controller
 //	    })->where("role.id" , 1)->get();
 //	    dd($a);
 
-//	    joinSub leftjoinSub ......
+//	    joinSub leftjoinSub .....
 //	     where   => where ,
 //       orwhere => or ,
 //       whereBetween => between ,
