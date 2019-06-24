@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9a7da240-76e3-40e2-b103-8e07cc567ef2" name="laravel" url="http://119.3.219.214:8000/">
+        <fileTransfer host="119.3.219.214" port="21" rootFolder="/var/www/html/laravel58" password="dffbdfdbdfdbdf84df98df9cdf98df99" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" forceListCommand="true" maxConnections="300" passiveMode="true" accurateTimestamps="ALWAYS" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
