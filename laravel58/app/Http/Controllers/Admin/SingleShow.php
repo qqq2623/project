@@ -20,7 +20,7 @@ class SingleShow extends Controller
     {
 // 查询构造器
 //		取字段，相当于select()
-		$a = DB::table("admin_user")->get(["user_name","user_id"]);
+//		$a = DB::table("admin_user")->get(["user_name","user_id"]);
 //	    取字段，相当于select()  取一条
 //      $a = DB::table("admin_user")->first("user_name");
 //	    $a = DB::table("admin_user")->first(["user_name" , "role_id"]);
@@ -82,7 +82,7 @@ class SingleShow extends Controller
 //		    ["role_id"=>"22"]
 //	    );
 
-	    dd($a);
+//	    dd($a);
 
     }
 
