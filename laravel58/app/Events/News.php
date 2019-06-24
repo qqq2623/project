@@ -32,7 +32,7 @@ class News implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-	    echo $this->news;
+//	    echo $this->news;
         return new Channel('news');
     }
 }
