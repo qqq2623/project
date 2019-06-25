@@ -14,7 +14,7 @@ class News implements ShouldBroadcast
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-	private $news;
+	public $news;
     /**
      * Create a new event instance.
      *
