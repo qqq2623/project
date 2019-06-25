@@ -21,7 +21,7 @@ class News implements ShouldBroadcast
      * @return void
      */
 
-	public $broadcastQueue = 'zhangyu';
+//	public $broadcastQueue = 'zhangyu';
 
     public function __construct($news)
     {
@@ -35,7 +35,7 @@ class News implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-//	    echo $this->news;
+	    echo $this->news;
         return new Channel('news');
     }
 }
