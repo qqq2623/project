@@ -57,5 +57,5 @@ window.Echo = new Echo({
 //
 window.Echo.channel('news').listen('News' , (e) => {
 	//console.log(e);return false;
-	alert(e);
+	alert(e.message);
 });
