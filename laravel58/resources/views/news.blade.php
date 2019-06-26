@@ -11,8 +11,8 @@
     </body>
     <script src="{{ mix('js/app.js') }}"></script>
     <script type="text/javascript">
-        Echo.channel('news').listen('News' , (e) => {
-           alert(e.message);
-        });
+//        Echo.channel('news').listen('News' , (e) => {
+//           alert(e.message);
+//        });
     </script>
 </html>
